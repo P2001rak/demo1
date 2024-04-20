@@ -144,7 +144,7 @@ resource "null_resource" "refresh_static_site" {
 
 # Create GitHub repository
 resource "github_repository" "my_repo" {
-  name        = "my-repo"
+  name        = "mynewrepo"
   description = "My GitHub repository"
   visibility  = "public"  # or "private" if you want it to be private
 }
